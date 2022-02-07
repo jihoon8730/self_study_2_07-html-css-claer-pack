@@ -1,0 +1,63 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas:
+    "헤더 헤더 헤더 헤더"
+    "사이드 메인 메인 메인"
+    "사이드 메인 메인 메인";
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      "헤더 헤더 헤더 헤더"
+      "사이드 사이드 사이드 사이드"
+      "메인 메인 메인 메인";
+  }
+}
+
+.grid-container div {
+  border: 1px solid black;
+}
+
+.grid-nav {
+  grid-area: 헤더;
+}
+
+.grid-sidebar {
+  grid-area: 사이드;
+}
+
+.grid-main {
+  grid-area: 메인;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-areas:
+    "메인 메인 ."
+    "메인 메인 ."
+    ". . .";
+}
+
+.grid-container2 img {
+  height: 100%;
+}
+
+.image1 {
+  grid-area: 메인;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .image1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+}

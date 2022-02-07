@@ -1,0 +1,49 @@
+.wrap {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.left {
+  width: 70%;
+  height: 230px;
+  float: left;
+}
+
+.left img {
+  width: 80px;
+  float: left;
+}
+
+.left-name {
+  float: left;
+}
+
+.right-img {
+  width: 30%;
+  height: 230px;
+  float: left;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.navbar li:hover {
+  width: 60px;
+  border-radius: 5px;
+  background-color: #11468f;
+}
+
+.navbar a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}

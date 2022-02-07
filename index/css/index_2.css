@@ -1,0 +1,49 @@
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.developer {
+  color: royalblue;
+  font-weight: 800;
+}
+
+.box {
+  width: 100px;
+  background-color: royalblue;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* 일부 스타일은 자동으로 inherit(상속)됩니다. 부모애서 자식 */
+  font-size: 20px;
+
+  color: white;
+  box-shadow: 5px 5px 5px gray;
+}
+
+/* 우선순위 id > class > p */
+/* .content {
+  text-align: center;
+} */
+
+/* p {
+  color: green;
+}
+
+#special {
+  text-align: center;
+} */

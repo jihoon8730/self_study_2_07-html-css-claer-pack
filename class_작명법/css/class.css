@@ -1,0 +1,46 @@
+/* 비효율 적인 초보 클래스 작명법 */
+/* .btn-red {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background: red;
+}
+
+.btn-blue {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background: blue;
+} */
+
+/* 고수들의 작명법 */
+
+/* Utility class */
+.f-small {
+  font-size: 12px;
+}
+
+.f-mid {
+  font-size: 16px;
+}
+
+.f-lg {
+  font-size: 20px;
+}
+
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-blue {
+  background: blue;
+}
